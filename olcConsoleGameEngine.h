@@ -3,7 +3,7 @@
 
 #ifndef UNICODE
 #error Please enable UNICODE for your compiler! VS: Project Properties -> General -> \
-Character Set -> Use Unicode. Thanks! - Javidx9
+Character Set -> Use Unicode. Thanks!
 #endif
 
 #include <windows.h>
@@ -228,7 +228,7 @@ public:
 		m_nScreenWidth = width;
 		m_nScreenHeight = height;
 
-		// Update 13/09/2017 - It seems that the console behaves differently on some systems
+		// It seems that the console behaves differently on some systems
 		// and I'm unsure why this is. It could be to do with windows default settings, or
 		// screen resolutions, or system languages. Unfortunately, MSDN does not offer much
 		// by way of useful information, and so the resulting sequence is the reult of experiment
@@ -896,7 +896,7 @@ protected: // Audio Engine =====================================================
 			// Note the -2, because the structure has 2 bytes to indicate its own size
 			// which are not in the wav file
 
-// Just check if wave format is compatible with olcCGE
+			// Just check if wave format is compatible with olcCGE
 			if (wavHeader.wBitsPerSample != 16 || wavHeader.nSamplesPerSec != 44100)
 			{
 				std::fclose(f);
