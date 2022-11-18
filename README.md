@@ -7,3 +7,8 @@ A obj file rendering program running through the command prompt in C++.
 * Fill algorithms
 * Normals
 * Rasterization
+* Vertex manipulation
+* Matrix manipulation
+* Vector intersection
+* Triangle drawing
+* User Key input
