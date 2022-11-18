@@ -136,6 +136,9 @@
   <ItemGroup>
     <ClInclude Include="olcConsoleGameEngine.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="frog.spr" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
